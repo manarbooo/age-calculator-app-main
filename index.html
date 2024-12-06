@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+  
+</head>
+<body>
+
+  <main class="container">
+    <form class="form">
+      <div class="formFields">
+
+
+         <div class="formGroupe">
+          <label class="label" for="day">DAY</label>
+          <input class="inputField" id="day" placeholder="DD" type="number" name="dayInput">
+          <span class="errorSpan">This field is required</span>
+         </div>
+
+      
+         <div class="formGroupe">
+          <label class="label" for="day">MONTH</label>
+          <input class="inputField" id="month" placeholder="MM" type="number" name="monthInput">
+          <span class="errorSpan">This field is required</span>
+         </div>
+
+
+         <div class="formGroupe">
+          <label class="label" for="day">YEAR</label>
+          <input class="inputField" id="year" placeholder="YYYY" type="number" name="yearInput">
+          <span class="errorSpan">This field is required</span>
+         </div>
+      
+        </div>
+
+        <div class="buttonRow">
+          <div class="divider"></div>
+          <button class="button"><img src="assets/images/icon-arrow.svg" class="arrowIcon"></button>
+        </div>
+    </form>
+
+    <div class="outputDiv">
+      <p class="outputElement"><span class="numericalVal">--</span> years</p>
+      <p class="outputElement"><span class="numericalVal">--</span> months</p>
+      <p class="outputElement"><span class="numericalVal">--</span> days</p>
+    </div>
+  </main>
+  
+  <script src="main.js"></script>
+</body>
+</html>
+
+
+<!--
+
+Day
+  DD
+
+  Month
+  MM
+
+  Year
+  YYYY
+
+  -- years
+  -- months
+  -- days
+  
+
+-->
